@@ -39,6 +39,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use('/api/users', require('./routes/users'));
+app.use('/api/favorite', require('./routes/favorite'));
 
 // Serve static assets if in production
 if (process.env.NODE_ENV === "production") {
