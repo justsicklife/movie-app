@@ -1,0 +1,13 @@
+.main_image {
+  width: 100%;
+  /* margin: auto; */
+  height: 500px;
+}
+
+.main_image > img {
+    height: 500px;
+    background-size: 100% cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+}
