@@ -15,6 +15,7 @@ export default function (SpecificComponent, option, adminRoute = null) {
                 //Not Loggined in Status 
                 if (!response.payload.isAuth) {
                     if (option) {
+                        console.log(props);
                         props.history.push('/login')
                     }
                     //Loggined in Status 
