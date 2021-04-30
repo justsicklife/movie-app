@@ -1,0 +1,31 @@
+.favorite_container {
+  width: var(--container-width-large);
+  margin: auto;
+}
+
+.favorite_info {
+  height: 315px;
+  padding: 15px;
+}
+
+.favorite_info_poster {
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.favorite_info_poster > img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.favorite_info_text {
+  float: left;
+  height: 100%;
+}
