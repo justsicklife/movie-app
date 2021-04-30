@@ -1,0 +1,9 @@
+:root {
+  --container-width-large: 1200px;
+  --container-width-medium: 800px;
+  --container-width-small: 500px;
+}
+
+* {
+  box-sizing: border-box;
+}
